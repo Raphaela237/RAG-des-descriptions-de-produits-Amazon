@@ -1,0 +1,19 @@
+# Ignorer les fichiers temporaires
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers de configuration et d'environnement
+.env
+*.env
+
+# Ignorer le répertoire db pour éviter de pousser la base de données
+db/
+
+# Ignorer les fichiers générés par Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les répertoires et fichiers de cache
+.cache/
